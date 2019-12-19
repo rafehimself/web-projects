@@ -1,0 +1,89 @@
+body {
+    background: #d2d0fe;
+    font-family: "Nunito", sans-serif;
+}
+
+h2.abovetxt {
+    color:  #6d0c74;
+    font-weight: 300;
+    font-size: 2.5rem;
+}
+
+.blurb p {
+    color:  #7f78d2;
+    font-weight: 300;
+    font-size: 1.125rem;
+    line-break: 2;
+
+}
+
+i.bookicon {
+    color: #ffffff;
+}
+
+.content {
+    margin-top: 80px;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;    
+    font-weight: 200;
+}
+
+#mainNavbar .nav-link {
+    color: #ffffff;
+
+}
+
+#mainNavbar .nav-link:hover {
+    color: #6d0c74;
+    font-weight: 400;
+    
+}
+
+#mainNavbar .navbar-brand {
+    color: #6d0c74;
+    font-weight: 400;
+    font-size: 1.55rem;
+}
+
+#mainNavbar .navbar-brand:hover {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 1.55rem;
+}
+
+#headingGroup span {
+    color: #6d0c74;
+}
+
+#headingGroup h2 {
+    font-size: 2.5rem;
+    font-weight: 100;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h2 {
+        font-size: 2rem;
+        font-weight: 100;
+}
+}
+
+.bg-dark {
+    background: transparent !important;
+    }
+    
+.bg-dark.scrolled {
+      background: rgba(145, 105, 222, 0.55)!important;
+      transition: background 500ms;
+    }
+
+.footer {
+    text-align: center;
+    background-color: #fdecff;
+    margin: 0 auto;
+    font-size: 0.9rem;   
+}
+.footer p {
+    margin-bottom: 0;
+}
